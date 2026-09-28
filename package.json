@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/crushflag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Crush encode/decode helpers for flag payloads in pipelines.",
+  "bin": {
+    "crushflag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/crushflag.git"
+  },
+  "homepage": "https://theworker02.github.io/crushflag/",
+  "keywords": [
+    "crush",
+    "flag",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
